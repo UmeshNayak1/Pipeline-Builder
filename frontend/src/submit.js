@@ -12,7 +12,7 @@ export const SubmitButton = () => {
     try {
 
       const response = await fetch(
-        "https://pipeline-builder-1-cscz.onrender.com",
+        "https://pipeline-builder-1-cscz.onrender.com/pipelines/parse",
         {
           method: "POST",
           headers: {
