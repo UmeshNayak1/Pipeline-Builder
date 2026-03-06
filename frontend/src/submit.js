@@ -12,7 +12,7 @@ export const SubmitButton = () => {
     try {
 
       const response = await fetch(
-        "http://localhost:8000/pipelines/parse",
+        "https://pipeline-builder-1-cscz.onrender.com",
         {
           method: "POST",
           headers: {
